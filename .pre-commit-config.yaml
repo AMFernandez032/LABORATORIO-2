@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-case-conflict
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: clang-format
+        name: clang-format
+        entry: C:/msys64/ucrt64/bin/clang-format.exe -i --style=file
+        language: system
+        files: \.(c|h)$

@@ -1,5 +1,5 @@
 /*********************************************************************************************************************
-Copyright (c) 2026, ALFREDO M.FERNANDEZ <correo@ejemplo.com>
+Copyright (c) 2026, ALFREDO M. FERNANDEZ <correo@ejemplo.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
@@ -17,20 +17,23 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 SPDX-License-Identifier: MIT
 *********************************************************************************************************************/
 
-/** @file main.c
- ** @brief main de código fuente en lenguaje C
+/** @file alumno.c
+ ** @brief modulo alumno código fuente en lenguaje C
  **/
 
 /* === Headers files inclusions ==================================================================================== */
 
 #include "alumno.h"
+#include <stdio.h>
 
 /* === Macros definitions ========================================================================================== */
 
 /* === Private data type declarations ============================================================================== */
 
 /* === Private function declarations =============================================================================== */
+// void serializar_texto(char campo[], char valor[],char buffer[]){
 
+//}
 /* === Private variable definitions ================================================================================ */
 
 /* === Public variable definitions ================================================================================= */
@@ -38,5 +41,8 @@ SPDX-License-Identifier: MIT
 /* === Private function definitions ================================================================================ */
 
 /* === Public function implementation ============================================================================== */
+int main(void) {
 
+    alumno();
+}
 /* === End of documentation ======================================================================================== */

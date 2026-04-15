@@ -149,3 +149,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/c,visualstudiocode,macos,windows,linux
+buid
+mirrors-clang-format/
+pre-commit-hooks/
