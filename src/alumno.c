@@ -31,18 +31,18 @@ SPDX-License-Identifier: MIT
 /* === Private data type declarations ============================================================================== */
 
 /* === Private function declarations =============================================================================== */
-// void serializar_texto(char campo[], char valor[],char buffer[]){
-
-//}
+int serializar_texto(char campo[], char valor[], char buffer[], uint32_t size) {
+    return snprintf(buffer, size(buffer), "\"%s\":\"%s\"", campo, valor);
+}
 /* === Private variable definitions ================================================================================ */
 
 /* === Public variable definitions ================================================================================= */
 
 /* === Private function definitions ================================================================================ */
-
-/* === Public function implementation ============================================================================== */
-int main(void) {
-
-    alumno();
+serializar
+    /* === Public function implementation ==============================================================================
+     */
+    int
+    main(void) {
 }
 /* === End of documentation ======================================================================================== */

@@ -19,7 +19,7 @@ SPDX-License-Identifier: MIT
 
 #ifndef ALUMNO_H_
 #define ALUMNO_H_
-
+#include <stdint.h>
 /** @file alumno.h
  ** @brief Archivo de cabecera para gestion de alumnos
  **/
